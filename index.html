@@ -1,11 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda de Zapatos</title>
+    <link rel="icon" href="imagenes/rocket_launch_icon_174971.png" type="image/img">
 </head>
+
 <body>
-    
+
+    <style>
+        .titulo {
+            color: aqua;
+            text-align: center;
+        }
+
+        .cita {
+            font-style: italic;
+        }
+    </style>
+
+    <header>
+        <h1 class="titulo">Tienda de Zapatos</h1>
+
+    </header>
+
+    <main>
+        <p>El porqué de las zapatillas</p>
+        <blockquote cite="https://es.wikipedia.org/wiki/Zapatilla" class="cita">La palabra zapatilla puede referirse al calzado
+            cómodo o de abrigo para estar en casa </blockquote>
+
+        <p>Lorem <a href="https://www.google.com.co/" target="_blank">ipsum</a> dolor sit amet consectetur adipisicing
+            elit. Inventore, earum dolorum voluptatem obcaecati vero
+            provident facilis et, porro rerum accusamus debitis. Illo accusamus blanditiis quisquam nisi assumenda quasi
+            earum rem.</p>
+
+        <h2>Sección de calzado</h2>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, illum omnis eos cumque eius sit
+            excepturi molestias repellendus? Soluta minima amet voluptate excepturi quis laborum obcaecati saepe
+            distinctio voluptatem accusamus.</p>
+
+        <h2>Menú Principal</h2>
+
+        <ul>
+            <li>Video</li>
+            <li><a href="#Contacto">Contacto</a></li>
+            <li><a href="#Fundador">Fundador</a></li>
+        </ul>
+
+        <br>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wm-p9mcN8Yk" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <h2 id="Contacto">Contacto</h2>
+
+        <table>
+            <tr>
+                <th>Áreas de la tienda</th>
+                <th>Responsable</th>
+                <th>Teléfono</th>
+            </tr>
+            <tr>
+                <td> Calzado hombre</td>
+                <td>Sebastian Cely</td>
+                <td> 300 000 00 00</td>
+            </tr>
+            <tr>
+                <td> Calzado mujer</td>
+                <td>Daniela</td>
+                <td> 300 111 11 11</td>
+            </tr>
+
+        </table>
+
+        <img src="imagenes/Prueba_2.png" alt="mi_foto" width="300" height="300" id="Fundador">
+
+        <br>
+
+        <form>
+            <label for="nombreCompleto">Nombre completo</label>
+            <input type="text" id="nombreC" name="nombreC" placeholder="Nombres y apellidos" required><br><br>
+            <label for="zapatoB">Zapato que no encontraste:</label>
+            <input type="text" id="zapatoab" name="zapatoab"><br><br>
+            <input type="radio" id="zapatoh" name="tzapato" value="hombre">
+            <label for="male">Hombre</label><br>
+            <input type="radio" id="zapatom" name="tzapato" value="mujer">
+            <label for="female">Mujer</label><br>
+            <input type="radio" id="zapaton" name="tzapato" value="nino">
+            <label for="other">Niño</label><br><br>
+            <input type="submit" value="Solicitar">
+        </form>
+
+    </main>
+
+    <footer>
+
+    </footer>
 </body>
+
 </html>
